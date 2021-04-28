@@ -17,7 +17,7 @@ public class main {
 		Set<Integer> tempPopulation = new HashSet<>();
 
 		while (tempPopulation.size() < 8) {
-			tempPopulation.add(randomNumberGenerator.nextInt(300));
+			tempPopulation.add(randomNumberGenerator.nextInt(600));
 		}
 
 		Iterator<Integer> tempPopulationIterator = tempPopulation.iterator();
@@ -45,7 +45,7 @@ public class main {
 
 		int generation = 0;
 		boolean fitFound = false;
-		while (generation < 200) {
+		while (generation < 300) {
 
 			System.out.println("Geração de número: " + i);
 
