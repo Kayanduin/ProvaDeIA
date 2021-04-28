@@ -59,7 +59,7 @@ public class main {
 
 			System.out.println("Tamanho da população reproduzida: " + population.size());
 
-			population = algorithm.mutation(population, 0.1);
+			population = algorithm.mutation(population, 0.01);
 
 			Iterator<Integer> newPopulationIterator = population.iterator();
 
