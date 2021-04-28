@@ -8,7 +8,7 @@ public class Algoritimo2 {
 
 	public Integer getFit(Integer individuo) {
 
-		return ((individuo * 2) - (18 * individuo)) + 24;
+		return ((individuo * 2) - (4 * individuo)) + 6;
 	}
 
 	public List<Integer> getIndividuosAptos(List<Integer> population) {
