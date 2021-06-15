@@ -1,4 +1,4 @@
-# ProvaDeIA
+# Prova De Inteligência Artificial AV2
 
 O código está gerando os pesos, as entradas e os valores ideias de forma aleatória no primeiro momento. Então o código calcula o custo baseado nos valores gerados e compara 
 esse custo com o valor do custo ideal. Caso o custo encontrado seja maior que o custo ideal, novos valores vão ser gerados para os pesos e todo o cálculo de custo é refeito
